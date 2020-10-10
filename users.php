@@ -105,7 +105,7 @@
 
                         for ($i=1; $i < 16; $i++) { 
                           
-                          $sql= "SELECT * FROM testing.tbl_users where id='".$i."'";
+                          $sql= "SELECT * FROM dent6chqe4s7h.tbl_users where id='".$i."'";
                           $query= mysqli_query($conn, $sql);
 
                           if(mysqli_num_rows($query)>0)

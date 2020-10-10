@@ -88,10 +88,10 @@
 <?php
 
 					// Credentials
-                      $hostname= "localhost";
-                      $username= "root";
-                      $password= "";
-                      $database= "testing";
+                      $hostname= "ec2-54-160-18-230.compute-1.amazonaws.com";
+                      $username= "orsivuswylgniq";
+                      $password= "d415e10f95921f099e2c5d4f5ff18051f4f7670a039c170f19c48e0bef91fbfb";
+                      $database= "dent6chqe4s7h";
 
 
                     // UserInput Test
@@ -125,13 +125,13 @@
 	// ADD USER NAME FIELD HERE-- FROM SESSION
 	//**********************************
 
-	$sql="SELECT * FROM testing.tbl_admin WHERE admin_password='".$old."'";
+	$sql="SELECT * FROM dent6chqe4s7h.tbl_admin WHERE admin_password='".$old."'";
 	$query= mysql_query($sql, $conn);
 	$rows= mysql_num_rows($query);
 	if($rows==1)
 	{
 		// Given Password is Valid
-		$sql="UPDATE testing.tbl_admin SET admin_password='$new' WHERE admin_username='admin'"; // =============EDIT *SESSSION_SUERNAME *
+		$sql="UPDATE dent6chqe4s7h.tbl_admin SET admin_password='$new' WHERE admin_username='admin'"; // =============EDIT *SESSSION_SUERNAME *
 		if($query= mysql_query($sql, $conn))
 		{
 			// Successfully Changed

@@ -107,10 +107,10 @@
 					echo "<br>All Field Recquired";
 				}
 				
-       $DB_HOST= "localhost";
-       $DB_USER="root";
-       $DB_PASSWORD="";
-       $DB_NAME="testing";
+       $DB_HOST= "ec2-54-160-18-230.compute-1.amazonaws.com";
+       $DB_USER="orsivuswylgniq";
+       $DB_PASSWORD="d415e10f95921f099e2c5d4f5ff18051f4f7670a039c170f19c48e0bef91fbfb";
+       $DB_NAME="dent6chqe4s7h";
 	
 
         $conn= @mysqli_connect($DB_HOST,$DB_USER,$DB_PASSWORD,$DB_NAME)
@@ -118,7 +118,7 @@
 				
 
 
-				$sql= "INSERT INTO testing.tbl_users VALUES(null,'".$name."','".$email."','".$voterID."','".$selection."');";
+				$sql= "INSERT INTO dent6chqe4s7h.tbl_users VALUES(null,'".$name."','".$email."','".$voterID."','".$selection."');";
 					
 
 				if(mysqli_query($conn, $sql)){
