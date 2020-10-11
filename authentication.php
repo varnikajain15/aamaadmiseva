@@ -88,10 +88,10 @@
                     
 
                       // Credentials
-                      $hostname= "ec2-54-160-18-230.compute-1.amazonaws.com";
-                      $username= "orsivuswylgniq";
-                      $password= "d415e10f95921f099e2c5d4f5ff18051f4f7670a039c170f19c48e0bef91fbfb";
-                      $database= "dent6chqe4s7h";
+                      $hostname= " sql12.freesqldatabase.com";
+                      $username= "sql12370063";
+                      $password= " kYSL6Vl86w";
+                      $database= "sql12370063";
 
 
                       // UserInput Test
@@ -122,7 +122,7 @@
                           die("Connection Failed : ".mysqli_connect_error());
                         }
 
-                        $sql= "SELECT * FROM dent6chqe4s7h.tbl_admin WHERE admin_username='".$admin_username."' AND admin_password='".$admin_password."'";
+                        $sql= "SELECT * FROM sql12370063.tbl_admin WHERE admin_username='".$admin_username."' AND admin_password='".$admin_password."'";
                         $query= mysqli_query($conn, $sql);
                        
 
