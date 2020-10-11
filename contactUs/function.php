@@ -1,9 +1,9 @@
 <?php 
 class Contact{
-    private $host="localhost";
-    private $user="root";
-    private $pass="";
-    private $db="testing";
+    private $host="sql12.freesqldatabase.com";
+    private $user="sql12370063";
+    private $pass=" kYSL6Vl86w";
+    private $db="sql12370063";
     public $mysqli;
     
     public function __construct() {
