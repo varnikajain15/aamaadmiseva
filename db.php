@@ -1,8 +1,8 @@
 <?php
-	$dbhost	= "ec2-54-160-18-230.compute-1.amazonaws.com";
-	$dbuser = "orsivuswylgniq";
-	$dbpass = "d415e10f95921f099e2c5d4f5ff18051f4f7670a039c170f19c48e0bef91fbfb";
-	$dbname = "dent6chqe4s7h";
+	$dbhost	= " sql12.freesqldatabase.com";
+	$dbuser = "sql12370063";
+	$dbpass = "kYSL6Vl86w";
+	$dbname = "sql12370063";
 
 	$connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
