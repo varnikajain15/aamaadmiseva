@@ -1,9 +1,9 @@
 <?php 
 class Contact{
-    private $host="localhost";
-    private $user="root";
-    private $pass="";
-    private $db="testing";
+    private $host="ec2-54-160-18-230.compute-1.amazonaws.com";
+    private $user="orsivuswylgniq";
+    private $pass="d415e10f95921f099e2c5d4f5ff18051f4f7670a039c170f19c48e0bef91fbfb";
+    private $db="dent6chqe4s7h";
     public $mysqli;
     
     public function __construct() {
