@@ -6,7 +6,8 @@ html, body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
-
+    /* Adding this line to make background look more good, f you make any change you can get parallax effect */
+    background-attachment: fixed;
 }
 
   a.start{
